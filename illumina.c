@@ -202,7 +202,6 @@ static char* illumina_component(const char* filename, int component_index)
 		gmk_free (substr);
 		}
 	prev=i+1;
-	++i;
      	}
      /* nothing to return */
      if(data_size==0) return NULL;	
